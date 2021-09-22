@@ -464,7 +464,6 @@ ul.image-gallery {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.9);
 }
 .modalImage {
@@ -479,7 +478,7 @@ ul.image-gallery {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #f1f1f1;
+    color: var(--clr-light);
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
@@ -487,7 +486,7 @@ ul.image-gallery {
 
 .close:hover,
 .close:focus {
-    color: #11b296;
+    color: var(--clr-accent);
     cursor: pointer;
 }
 
